@@ -150,17 +150,17 @@
 
   /* * Current Theme * */
     /* Animation */
-    --background: var(--moonlight-ii-background);
-    --bracket: var(--moonlight-ii-bracket);
-    --object: var(--moonlight-ii-object);
-    --string: var(--moonlight-ii-string);
-    --symbol: var(--moonlight-ii-symbol);
-    --declaration: var(--moonlight-ii-declaration);
-    --variable: var(--moonlight-ii-variable);
+    --background: var(--night-owl-background);
+    --bracket: var(--night-owl-bracket);
+    --object: var(--night-owl-object);
+    --string: var(--night-owl-string);
+    --symbol: var(--night-owl-symbol);
+    --declaration: var(--night-owl-declaration);
+    --variable: var(--night-owl-variable);
 
     /* Secondary */
-    --nav: var(--moonlight-ii-nav);
-    --foreground: var(--moonlight-ii-foreground);
+    --nav: var(--night-owl-nav);
+    --foreground: var(--night-owl-foreground);
 
     /* OLD PORTFOLIO COLORS */
     --white: #f0f0f0;
@@ -221,7 +221,6 @@ body{
 .header h1 {
   position: relative;
   text-align: left;
-  /* line-height: .5 */
 }
 
 ul {
@@ -311,52 +310,32 @@ img {
   position: absolute;
   margin-left: -8px;
   color: var(--symbol) !important;
-  -webkit-animation: .75s blink step-end infinite;
-  -moz-animation: .75s blink step-end infinite;
-  -ms-animation: .75s blink step-end infinite;
-  -o-animation: .75s blink step-end infinite;
-  animation: .75s blink step-end infinite
+  -webkit-animation: blink-animation .75s steps(5, start) infinite;
+  -moz-animation: blink-animation .75s step-end infinite;
+  -ms-animation: blink-animation .75s step-end infinite;
+  -o-animation: blink-animation .75s step-end infinite;
+  animation: blink-animation .75s step-end infinite;
 }
 
-@keyframes blink {
-  0% {
-    color: transparent;
-  }
-  50% {
-    color: var(--symbol);
-  }
+@keyframes blink-animation {
+  from, to {color: transparent;}
+  50% {color: var(--symbol);}
 }
-@-moz-keyframes blink {
-  0% {
-    color: transparent;
-  }
-  50% {
-    color: var(--symbol);
-  }
+@-webkit-keyframes blink-animation {
+  from, to {visibility: hidden;}
+  50% {visibility: visible;}
 }
-@-webkit-keyframes blink {
-  0% {
-    color: transparent;
-  }
-  50% {
-    color: var(--symbol);
-  }
+@-moz-keyframes blink-animation {
+  0% {color: transparent;}
+  50% {color: var(--symbol);}
 }
-@-ms-keyframes blink {
-  0% {
-    color: transparent;
-  }
-  50% {
-    color: var(--symbol);
-  }
+@-ms-keyframes blink-animation {
+  0% {color: transparent;}
+  50% {color: var(--symbol);}
 }
-@-o-keyframes blink {
-  0% {
-    color: transparent;
-  }
-  50% {
-    color: var(--symbol);
-  }
+@-o-keyframes blink-animation {
+  0% {color: transparent;}
+  50% {color: var(--symbol);}
 }
 
 /* RESPONSIVE */

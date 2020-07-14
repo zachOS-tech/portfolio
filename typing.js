@@ -58,14 +58,14 @@ function deleteCapitals() {
 function moveCursorLeft(){
   showElem();
   let cursorLocationLarge = [
-    "-8px",
-    "-28px",    
-    "-48px",
+    "-12px",
+    "-36px",    
+    "-60px",
   ]
   let cursorLocationSmall = [
-    "-8px",
-    "-20px",    
-    "-32px",
+    "-6px",
+    "-22px",    
+    "-34px",
   ]
 
   // Runs on tablet or larger
@@ -87,19 +87,19 @@ function moveCursorLeft(){
 
 function moveCursorRight(){
   let cursorLocationLarge = [
-    "-48px",
-    "-28px",    
-    "-8px",
+    "-60px",
+    "-36px",    
+    "-12px",
   ]
   
   let cursorLocationSmall = [
-    "-32px",
-    "-20px",    
-    "-8px",
+    "-34px",
+    "-22px",    
+    "-6px",
   ]
 
   // Runs on tablet or larger
-  if(document.documentElement.clientWidth > 500 && rightCount < cursorLocationLarge.length){
+  if(document.documentElement.clientWidth > 800 && rightCount < cursorLocationLarge.length){
     document.getElementById("cursor1").style.marginLeft = cursorLocationLarge[rightCount];
     document.getElementById("cursor2").style.marginLeft = cursorLocationLarge[rightCount];
     rightCount++
@@ -107,7 +107,7 @@ function moveCursorRight(){
   }
 
   // Run if on Mobile Device
-  if(document.documentElement.clientWidth < 500 && rightCount < cursorLocationSmall.length){
+  if(document.documentElement.clientWidth < 800 && rightCount < cursorLocationSmall.length){
     document.getElementById("cursor1").style.marginLeft = cursorLocationSmall[rightCount];
     document.getElementById("cursor2").style.marginLeft = cursorLocationSmall[rightCount];
     rightCount++
