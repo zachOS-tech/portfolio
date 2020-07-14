@@ -1,0 +1,449 @@
+:root {
+  /* #region: Moonlight Theme */
+    /* All Colors */
+    --moonlight-background: #222436;
+    --moonlight-desaturated-gray: #7f85a3;
+    --moonlight-dark-blue: #3e68d7;
+    --moonlight-blue: #82aaff;
+    --moonlight-sky-blue: #65bcff;
+    --moonlight-cyan: #86e1fc;
+    --moonlight-red: #ff757f;
+    --moonlight-dark-red: #ff5370;
+    --moonlight-light-red: #ff98a4;
+    --moonlight-yellow: #ffc777;
+    --moonlight-orange: #ff966c;
+    --moonlight-dark-orange: #fc7b7b;
+    --moonlight-teal: #4fd6be;
+    --moonlight-green: #c3e88d;
+    --moonlight-purple: #c099ff;
+    --moonlight-pink: #fca7ea;
+    --moonlight-indigo: #7a88cf;
+    --moonlight-bright-cyan: #b4f9f8;
+  
+    --moonlight-gray-10-alt: #bcc4d6;
+    --moonlight-gray-10: #c8d3f5;
+    --moonlight-gray-9: #b4c2f0;
+    --moonlight-gray-8: #a9b8e8;
+    --moonlight-gray-7: #828bb8;
+    --moonlight-gray-6: #444a73;
+    --moonlight-gray-5: #2f334d;
+    --moonlight-gray-4: #222436;
+    --moonlight-gray-3: #1e2030;
+    --moonlight-gray-2: #191a2a;
+    --moonlight-gray-1: #131421;
+
+    /* Secondary Colors */
+    --moonlight-nav: #44475a;
+    --moonlight-foreground: var(--moonlight-gray-10);
+
+    /* Animation */
+    --moonlight-background: #222436;
+    --moonlight-bracket: #ff966c;
+    --moonlight-object: #c3e88d;
+    --moonlight-string: #4fd6be;
+    --moonlight-symbol: #65bcff;
+    --moonlight-declaration: var(--moonlight-purple);
+    --moonlight-variable: var(--moonlight-gray-10);
+  /* #endregion: Moonlight Theme  */
+  /* #region: Moonlight II Theme */
+    /* All Colors */
+    --moonlight-background: #222436;
+    --moonlight-desaturated-gray: #7f85a3;
+    --moonlight-dark-blue: #3e68d7;
+    --moonlight-blue: #82aaff;
+    --moonlight-sky-blue: #65bcff;
+    --moonlight-cyan: #86e1fc;
+    --moonlight-red: #ff757f;
+    --moonlight-dark-red: #ff5370;
+    --moonlight-light-red: #ff98a4;
+    --moonlight-yellow: #ffc777;
+    --moonlight-orange: #ff966c;
+    --moonlight-dark-orange: #fc7b7b;
+    --moonlight-teal: #4fd6be;
+    --moonlight-green: #c3e88d;
+    --moonlight-purple: #c099ff;
+    --moonlight-pink: #fca7ea;
+    --moonlight-indigo: #7a88cf;
+    --moonlight-bright-cyan: #b4f9f8;
+  
+    --moonlight-gray-10-alt: #bcc4d6;
+    --moonlight-gray-10: #c8d3f5;
+    --moonlight-gray-9: #b4c2f0;
+    --moonlight-gray-8: #a9b8e8;
+    --moonlight-gray-7: #828bb8;
+    --moonlight-gray-6: #444a73;
+    --moonlight-gray-5: #2f334d;
+    --moonlight-gray-4: #222436;
+    --moonlight-gray-3: #1e2030;
+    --moonlight-gray-2: #191a2a;
+    --moonlight-gray-1: #131421;
+
+    /* Secondary Colors */
+    --moonlight-ii-nav: #44475a;
+    --moonlight-ii-foreground: var(--moonlight-gray-10);
+
+    /* Animation */
+    --moonlight-ii-background: #222436;
+    --moonlight-ii-bracket: #ff966c;
+    --moonlight-ii-object: #4fd6be;
+    --moonlight-ii-string: #c3e88d;
+    --moonlight-ii-symbol: #6CD6F8;
+    --moonlight-ii-declaration: var(--moonlight-purple);
+    --moonlight-ii-variable: var(--moonlight-red);
+
+  /* #endregion Moonlight II Theme */
+  /* #region: Night Owl Theme */
+    /* All Colors */
+    --night-owl-black: #011627;
+    --night-owl-nav: #44475a;
+    --night-owl-white: #f8f8f2;
+    --night-owl-comment: null;
+    --night-owl-blue: #82AAFF;
+    --night-owl-dark-blue: #0b2942;
+    --night-owl-green: null;
+    --night-owl-orange: #e2b93d;
+    --night-owl-pink: null;
+    --night-owl-purple: #C792EA;
+    --night-owl-red: null;
+    --night-owl-brown: #b39554;
+
+    /* Secondary Colors */
+    --night-owl-nav: var(--night-owl-dark-blue);
+    --night-owl-foreground: var(--night-owl-white);
+
+    /* Animation */
+    --night-owl-background: var(--night-owl-black);
+    --night-owl-bracket: var(--night-owl-orange);
+    --night-owl-object: var(--night-owl-purple);
+    --night-owl-string: var(--night-owl-brown);
+    --night-owl-symbol: var(--night-owl-purple);
+    --night-owl-declaration: var(--night-owl-purple);
+    --night-owl-variable: var(--night-owl-blue);
+  /* #endregion: Night Owl Theme */
+  /* #region: Dracula Theme */
+    /* All Colors */
+    --dracula-background: #282a36;
+    --dracula-current-line: #44475a;
+    --dracula-foreground: #f8f8f2;
+    --dracula-comment: #6272a4;
+    --dracula-cyan: #8be9fd;
+    --dracula-green: #50fa7b;
+    --dracula-orange: #ffb86c;
+    --dracula-pink: #ff79c6;
+    --dracula-purple: #bd93f9;
+    --dracula-red: #ff5555;
+    --dracula-yellow: #f1fa8c;
+
+    /* Secondary Colors  */
+    --dracula-nav: #44475a;
+    --dracula-foreground: #f8f8f2;
+
+    /* Animation */
+    --dracula-background: #282a36;
+    --dracula-bracket: #ffb86c;
+    --dracula-object: #f8f8f2;
+    --dracula-string: #f1fa8c;
+    --dracula-symbol: #ff79c6;
+    --dracula-declaration: var(--dracula-pink);
+    --dracula-variable: var(--dracula-purple);
+  /* #endregion: Dracula Theme */
+
+  /* * Current Theme * */
+    /* Animation */
+    --background: var(--moonlight-ii-background);
+    --bracket: var(--moonlight-ii-bracket);
+    --object: var(--moonlight-ii-object);
+    --string: var(--moonlight-ii-string);
+    --symbol: var(--moonlight-ii-symbol);
+    --declaration: var(--moonlight-ii-declaration);
+    --variable: var(--moonlight-ii-variable);
+
+    /* Secondary */
+    --nav: var(--moonlight-ii-nav);
+    --foreground: var(--moonlight-ii-foreground);
+
+    /* OLD PORTFOLIO COLORS */
+    --white: #f0f0f0;
+    --black: #111;
+    --dark-blue: #002b33;
+    --dark-blue2: #263d41;
+    --blue: #167080;
+    --light-blue: #1ce;
+    --brown: #803a00;
+    --orange: #ff7d12;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow: overlay;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--nav);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--orange);
+}
+
+body{
+  background: var(--background);
+  color: var(--foreground);
+  margin: 0 auto;
+  font-family: 'Fira Code', monospace;
+}
+
+.header h1 {
+  position: relative;
+  text-align: left;
+  /* line-height: .5 */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% + 5px);
+  background: var(--nav);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+.nav-list{
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+  color: var(--foreground);
+  transition: background 0.25s ease-out, color 0.25s ease-out;
+}
+
+.nav-list a:hover {
+  background: var(--bracket);
+  color: var(--background);
+}
+
+/* Welcome Section */
+.welcome-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ". typing .";
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background);
+}
+
+.welcome-section #typing-animation {
+  grid-area: typing;
+  justify-self: center;
+}
+
+/* ANIMATIONS */
+
+#brackets{
+  color: var(--bracket);
+}
+#object-name{
+  color: var(--object);
+}
+.string{
+  color: var(--string);
+}
+#symbols{
+  color: var(--symbol);
+}
+#declaration{
+  color: var(--declaration);
+}
+#variable{
+  color: var(--variable);
+}
+
+.blinking-cursor {
+  font-weight: 400;
+  position: absolute;
+  margin-left: -8px;
+  color: var(--symbol) !important;
+  -webkit-animation: .75s blink step-end infinite;
+  -moz-animation: .75s blink step-end infinite;
+  -ms-animation: .75s blink step-end infinite;
+  -o-animation: .75s blink step-end infinite;
+  animation: .75s blink step-end infinite
+}
+
+@keyframes blink {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: var(--symbol);
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: var(--symbol);
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: var(--symbol);
+  }
+}
+@-ms-keyframes blink {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: var(--symbol);
+  }
+}
+@-o-keyframes blink {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: var(--symbol);
+  }
+}
+
+/* RESPONSIVE */
+
+/* #region: Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .header{
+      line-height: 1;
+      font-size: .7rem;
+      margin: 10% 0 0 5%;
+    }
+
+    html {
+      font-size: 55%;
+    }
+
+    p {
+      font-size: 2.6rem;
+    }
+
+    .nav{
+      justify-content: center;
+    }
+
+    .nav-list{
+      margin: 0 1rem;
+    }
+
+    .welcome-section {
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+        "typing";
+    }
+  }
+/* #endregion */
+ 
+/* #region: Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 750px) {
+    .header{
+      line-height: 1;
+      margin: 10% 0 0 15%;
+    }
+
+    html {
+      font-size: 58%;
+    }
+
+    p {
+      font-size: 3.75rem;
+    }
+
+    .welcome-section {
+      grid-template-columns: 1fr 75% 1fr;
+      grid-template-areas: 
+        ". typing .";
+    }
+  }
+/* #endregion */
+ 
+/* #region: Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .header{
+      line-height: 1;
+      margin: 10% 0 0 30%;
+    }
+
+    html {
+      font-size: 60%;
+    }
+
+    p {
+      font-size: 4.2rem
+    }
+
+    .welcome-section {
+      grid-template-columns: 1fr 50% 1fr;
+      grid-template-areas: 
+        ". typing .";
+    }
+  }
+/* #endregion */
+ 
+/* #region: Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1300px) {
+    .header{
+      line-height: 1;
+      margin: 10% 0 0 33%;
+    }
+  }
+/* #endregion */
