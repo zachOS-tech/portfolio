@@ -139,7 +139,7 @@ function writeFirstName() {
 
   // Hide first cursor once the typing is finished
   setTimeout(() => {
-    hideElem();
+    removeElement("cursor1");
   }, 2000);
 }
 
@@ -150,6 +150,12 @@ function writeLastName() {
     lastNameCount++;
     setTimeout(writeLastName, speed);
   }
+}
+
+function removeElement(elementId) {
+  // Removes an element from the document
+  var element = document.getElementById(elementId);
+  element.parentNode.removeChild(element);
 }
 
 const whoAmI = 
