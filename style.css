@@ -156,32 +156,6 @@
     --dracula-declaration: var(--dracula-pink);
     --dracula-variable: var(--dracula-purple);
   /* #endregion: Dracula Theme */
-
-  /* * Current Theme * */
-    /* Animation */
-    --background: var(--night-owl-background);
-    --bracket: var(--night-owl-bracket);
-    --object: var(--night-owl-object);
-    --string: var(--night-owl-string);
-    --symbol: var(--night-owl-symbol);
-    --declaration: var(--night-owl-declaration);
-    --variable: var(--night-owl-variable);
-
-    /* Secondary */
-    --nav: var(--night-owl-nav);
-    --foreground: var(--night-owl-foreground);
-    --html: var(--night-owl-html);
-    --html-brackets: var(--night-owl-html-brackets);
-
-    /* OLD PORTFOLIO COLORS */
-    --white: #f0f0f0;
-    --black: #111;
-    --dark-blue: #002b33;
-    --dark-blue2: #263d41;
-    --blue: #167080;
-    --light-blue: #1ce;
-    --brown: #803a00;
-    --orange: #ff7d12;
 }
 
 * {
@@ -200,6 +174,78 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   overflow: overlay;
+}
+
+body.moonlight {
+    /* * Night Owl Theme * */
+    /* Animation */
+    --background: var(--moonlight-background);
+    --bracket: var(--moonlight-bracket);
+    --object: var(--moonlight-object);
+    --string: var(--moonlight-string);
+    --symbol: var(--moonlight-symbol);
+    --declaration: var(--moonlight-declaration);
+    --variable: var(--moonlight-variable);
+
+    /* Secondary */
+    --nav: var(--moonlight-nav);
+    --foreground: var(--moonlight-foreground);
+    --html: var(--moonlight-html);
+    --html-brackets: var(--moonlight-html-brackets);
+}
+
+body.moonlight-ii {
+  /* * Moonlight II Theme * */
+  /* Animation */
+  --background: var(--moonlight-ii-background);
+  --bracket: var(--moonlight-ii-bracket);
+  --object: var(--moonlight-ii-object);
+  --string: var(--moonlight-ii-string);
+  --symbol: var(--moonlight-ii-symbol);
+  --declaration: var(--moonlight-ii-declaration);
+  --variable: var(--moonlight-ii-variable);
+
+  /* Secondary */
+  --nav: var(--moonlight-ii-nav);
+  --foreground: var(--moonlight-ii-foreground);
+  --html: var(--moonlight-ii-html);
+  --html-brackets: var(--moonlight-ii-html-brackets);
+}
+
+body.night-owl {
+    /* * Night Owl Theme * */
+    /* Animation */
+    --background: var(--night-owl-background);
+    --bracket: var(--night-owl-bracket);
+    --object: var(--night-owl-object);
+    --string: var(--night-owl-string);
+    --symbol: var(--night-owl-symbol);
+    --declaration: var(--night-owl-declaration);
+    --variable: var(--night-owl-variable);
+
+    /* Secondary */
+    --nav: var(--night-owl-nav);
+    --foreground: var(--night-owl-foreground);
+    --html: var(--night-owl-html);
+    --html-brackets: var(--night-owl-html-brackets);
+}
+
+body.dracula {
+  /* * Dracula Theme * */
+  /* Animation */
+  --background: var(--dracula-background);
+  --bracket: var(--dracula-bracket);
+  --object: var(--dracula-object);
+  --string: var(--dracula-string);
+  --symbol: var(--dracula-symbol);
+  --declaration: var(--dracula-declaration);
+  --variable: var(--dracula-variable);
+
+  /* Secondary */
+  --nav: var(--dracula-nav);
+  --foreground: var(--dracula-foreground);
+  --html: var(--dracula-html);
+  --html-brackets: var(--dracula-html-brackets);
 }
 
 /* width */
@@ -291,6 +337,18 @@ img {
 .nav-list a:hover {
   background: var(--bracket);
   color: var(--background);
+}
+
+.nav-list ul {
+  display: none;
+  font-size: 2.2rem;
+  padding: 2rem;
+  color: var(--foreground);
+  transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.nav-list ul li:hover ul {
+  display: block;
 }
 
 /* Welcome Section */
@@ -539,6 +597,10 @@ footer i {
 
       .nav-list{
         margin: 0 1rem;
+      }
+
+      .nav-list a{
+        padding: 2rem 1rem;
       }
 
       .welcome-section {

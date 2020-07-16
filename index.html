@@ -8,13 +8,21 @@
   <link rel="stylesheet" href="style.css">
   <title>Zach Hoskins' Portfolio</title>
 </head>
-<body>
+<body id="body" class="night-owl">
     <!-- START NAV -->
     <nav id="navbar" class="nav">
+
       <ul class="nav-list">
         <li><a href="#welcome-section">Home</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="theme" onclick="changeTheme();">Theme</a>
+          <ul>
+            <li><a href="#">Moonlight II</a></li>
+            <li><a href="#">Night Owl</a></li>
+            <li><a href="#">Dracula</a></li>
+          </ul> 
+        </li>
       </ul>
     </nav>
     <!-- END NAV -->
@@ -202,7 +210,7 @@
     <section id="contact" class="contact-section">
       <div class="contact-section-header">
         <h2>Let's Talk</h2>
-        <p>Wanna get in touch or talk about a project?</p>
+        <p>Wanna get in touch or need help with a project?</p>
       </div>
 
       <div class="contact-links">
@@ -235,6 +243,7 @@
     <!-- END FOOTER SECTION -->
 
 
+  <script src="./theme.js"></script>
   <script src="./typing.js"></script>
 </body>
 </html>
