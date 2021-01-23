@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="style.css">
-  <title>Zach Hoskins' Portfolio</title>
-</head>
-<body id="body" class="night-owl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zach Hoskins' Portfolio</title>
+  </head>
+  <body id="body" class="night-owl">
     <!-- START NAV -->
     <nav id="navbar" class="nav">
-
       <ul class="nav-list">
         <li><a href="#welcome-section">Home</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#" class="theme" onclick="changeTheme();">Theme</a>
+        <li>
+          <a href="#" class="theme" onclick="changeTheme();">Theme</a>
           <ul>
             <li><a href="#">Moonlight II</a></li>
             <li><a href="#">Night Owl</a></li>
             <li><a href="#">Dracula</a></li>
-          </ul> 
+          </ul>
         </li>
       </ul>
     </nav>
     <!-- END NAV -->
-  
+
     <!-- START WELCOME SECTION -->
     <section id="welcome-section" class="welcome-section">
       <div id="typing-animation">
-        <p><span id="declaration">const </span><span id="variable">whoAmI </span><span id="symbols">=</span></p>
+        <p>
+          <span id="declaration">const </span><span id="variable">whoAmI </span
+          ><span id="symbols">=</span>
+        </p>
         <p id="brackets">{</p>
-          <p>
-            &nbsp;&nbsp;<span id="object-name">name</span><span id="symbols">:</span><span class="string"> "</span><span class="string" id="typewriter_firstName">zac</span><span id="cursor1" class="blinking-cursor">|</span><span class="string" id="typewriter_lastName">hOS</span><span id="cursor2" class="blinking-cursor">|</span><span class="string">"</span><span id="symbols">,</span>
-          </p>
-          <p>
-            &nbsp;&nbsp;<span id="object-name">title</span><span id="symbols">:</span><span class="string"> "Web Developer"&nbsp;&nbsp;</span>
-          </p>
+        <p>
+          &nbsp;&nbsp;<span id="object-name">name</span
+          ><span id="symbols">:</span><span class="string"> "</span
+          ><span class="string" id="typewriter_firstName">zac</span
+          ><span id="cursor1" class="blinking-cursor">|</span
+          ><span class="string" id="typewriter_lastName">hOS</span
+          ><span id="cursor2" class="blinking-cursor">|</span
+          ><span class="string">"</span><span id="symbols">,</span>
+        </p>
+        <p>
+          &nbsp;&nbsp;<span id="object-name">title</span
+          ><span id="symbols">:</span
+          ><span class="string"> "Web Developer"&nbsp;&nbsp;</span>
+        </p>
         <p id="brackets">}</p>
       </div>
     </section>
@@ -83,23 +102,6 @@
             <span class="code">&#47;&gt;</span>
           </p>
         </a>
-        <!-- <a
-          href="https://codepen.io/zachhoskins/full/NWxGwWL"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://res.cloudinary.com/zachhoskins/image/upload/v1592061348/Portfolio/product-landing-page.png"
-            alt="Product Landing Page"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Product Landing Page
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a> -->
         <a
           href="https://oneoilyman.com"
           target="_blank"
@@ -117,78 +119,50 @@
             <span class="code">&#47;&gt;</span>
           </p>
         </a>
-        <!-- <a
-          href="https://codepen.io/zachhoskins/full/bGENMNe"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-          >
-          <img
-            class="project-image"
-            src="https://res.cloudinary.com/zachhoskins/image/upload/v1592061351/Portfolio/survey-form.png"
-            alt="Survey Form"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Work From Home Survey Form
-            <span class="code">&#47;&gt;</span>
-          </p>
-      </a> -->
-    </div>
+      </div>
 
-    <h2 class="projects-section-header">CSS Art</h2>
+      <h2 class="projects-section-header">CSS Art</h2>
 
-    <div class="projects-grid">
-      <a 
-        href="https://codepen.io/zachhoskins/details/NWxweeV"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="project project-tile"
-      >
-        <img src="assets/images/tom-nook.jpg" alt="Tom Nook CSS Art" class="project-image">
-        <p class="project-title">
-          Tom Nook
-        </p>
-      </a>
-      <a 
-      href="https://codepen.io/zachhoskins/details/pogPvYV"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="project project-tile"
-    >
-      <img src="assets/images/pig.jpg" alt="Pig CSS Art" class="project-image">
-      <p class="project-title">
-        Pig
-      </p>
-    </a>
-      <a 
-        href="https://codepen.io/zachhoskins/full/MWKVJwJ"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="project project-tile"
-      >
-        <img src="assets/images/chicago-skyline.jpg" alt="Chicago Skyline CSS Art" class="project-image">
-        <p class="project-title">
-          Chicago Skyline
-        </p>
-      </a>
-        <!-- <a
-          href="https://codepen.io/zachhoskins/full/abdbgxj"
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/zachhoskins/details/NWxweeV"
           target="_blank"
           rel="noopener noreferrer"
           class="project project-tile"
         >
           <img
+            src="assets/images/tom-nook.jpg"
+            alt="Tom Nook CSS Art"
             class="project-image"
-            src="https://res.cloudinary.com/zachhoskins/image/upload/v1592061348/Portfolio/tribute-page.png"
-            alt="Tribute Page"
           />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Dietrich Bonhoeffer Tribute Page
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a> -->
+          <p class="project-title">Tom Nook</p>
+        </a>
+        <a
+          href="https://codepen.io/zachhoskins/details/pogPvYV"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project project-tile"
+        >
+          <img
+            src="assets/images/pig.jpg"
+            alt="Pig CSS Art"
+            class="project-image"
+          />
+          <p class="project-title">Pig</p>
+        </a>
+        <a
+          href="https://codepen.io/zachhoskins/full/MWKVJwJ"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project project-tile"
+        >
+          <img
+            src="assets/images/chicago-skyline.jpg"
+            alt="Chicago Skyline CSS Art"
+            class="project-image"
+          />
+          <p class="project-title">Chicago Skyline</p>
+        </a>
       </div>
 
       <a
@@ -203,8 +177,6 @@
     </section>
     <hr />
     <!-- END PROJECTS SECTION -->
-
-
 
     <!-- START CONTACT SECTION -->
     <section id="contact" class="contact-section">
@@ -222,11 +194,18 @@
           ><i class="fab fa-github"> GitHub</i></a
         >
         <a
-          href="http://twitter.com/ZachHoskins27"
+          href="http://twitter.com/zachOS_tech"
           class="btn contact-details"
           target="_blank"
           rel="noopener noreferrer"
           ><i class="fab fa-twitter"> Twitter</i></a
+        >
+        <a
+          href="http://youtube.zachos.tech"
+          class="btn contact-details"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-youtube"> YouTube</i></a
         >
         <a href="mailto:hello@zachos.tech" class="btn contact-details"
           ><i class="fas fa-mobile-alt"> Send Email</i></a
@@ -238,12 +217,11 @@
 
     <!-- START FOOTER SECTION -->
     <footer>
-      <p>Zach Hoskins &copy; 2020</p>
+      <p>Zach Hoskins &copy; 2021</p>
     </footer>
     <!-- END FOOTER SECTION -->
 
-
-  <script src="./theme.js"></script>
-  <script src="./typing.js"></script>
-</body>
+    <script src="./theme.js"></script>
+    <script src="./typing.js"></script>
+  </body>
 </html>
