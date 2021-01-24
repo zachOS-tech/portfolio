@@ -1,160 +1,160 @@
 :root {
   /* #region: Moonlight Theme */
-    /* All Colors */
-    --moonlight-background: #222436;
-    --moonlight-desaturated-gray: #7f85a3;
-    --moonlight-dark-blue: #3e68d7;
-    --moonlight-blue: #82aaff;
-    --moonlight-sky-blue: #65bcff;
-    --moonlight-cyan: #86e1fc;
-    --moonlight-red: #ff757f;
-    --moonlight-dark-red: #ff5370;
-    --moonlight-light-red: #ff98a4;
-    --moonlight-yellow: #ffc777;
-    --moonlight-orange: #ff966c;
-    --moonlight-dark-orange: #fc7b7b;
-    --moonlight-teal: #4fd6be;
-    --moonlight-green: #c3e88d;
-    --moonlight-purple: #c099ff;
-    --moonlight-pink: #fca7ea;
-    --moonlight-indigo: #7a88cf;
-    --moonlight-bright-cyan: #b4f9f8;
-  
-    --moonlight-gray-10-alt: #bcc4d6;
-    --moonlight-gray-10: #c8d3f5;
-    --moonlight-gray-9: #b4c2f0;
-    --moonlight-gray-8: #a9b8e8;
-    --moonlight-gray-7: #828bb8;
-    --moonlight-gray-6: #444a73;
-    --moonlight-gray-5: #2f334d;
-    --moonlight-gray-4: #222436;
-    --moonlight-gray-3: #1e2030;
-    --moonlight-gray-2: #191a2a;
-    --moonlight-gray-1: #131421;
+  /* All Colors */
+  --moonlight-background: #222436;
+  --moonlight-desaturated-gray: #7f85a3;
+  --moonlight-dark-blue: #3e68d7;
+  --moonlight-blue: #82aaff;
+  --moonlight-sky-blue: #65bcff;
+  --moonlight-cyan: #86e1fc;
+  --moonlight-red: #ff757f;
+  --moonlight-dark-red: #ff5370;
+  --moonlight-light-red: #ff98a4;
+  --moonlight-yellow: #ffc777;
+  --moonlight-orange: #ff966c;
+  --moonlight-dark-orange: #fc7b7b;
+  --moonlight-teal: #4fd6be;
+  --moonlight-green: #c3e88d;
+  --moonlight-purple: #c099ff;
+  --moonlight-pink: #fca7ea;
+  --moonlight-indigo: #7a88cf;
+  --moonlight-bright-cyan: #b4f9f8;
 
-    /* Secondary Colors */
-    --moonlight-nav: #44475a;
-    --moonlight-foreground: var(--moonlight-gray-10);
-    --moonlight-html: var(--moonlight-dark-red);
-    --moonlight-html-brackets: var(--moonlight-sky-blue);
+  --moonlight-gray-10-alt: #bcc4d6;
+  --moonlight-gray-10: #c8d3f5;
+  --moonlight-gray-9: #b4c2f0;
+  --moonlight-gray-8: #a9b8e8;
+  --moonlight-gray-7: #828bb8;
+  --moonlight-gray-6: #444a73;
+  --moonlight-gray-5: #2f334d;
+  --moonlight-gray-4: #222436;
+  --moonlight-gray-3: #1e2030;
+  --moonlight-gray-2: #191a2a;
+  --moonlight-gray-1: #131421;
 
-    /* Animation */
-    --moonlight-background: #222436;
-    --moonlight-bracket: #ff966c;
-    --moonlight-object: #c3e88d;
-    --moonlight-string: #4fd6be;
-    --moonlight-symbol: #65bcff;
-    --moonlight-declaration: var(--moonlight-purple);
-    --moonlight-variable: var(--moonlight-gray-10);
+  /* Secondary Colors */
+  --moonlight-nav: #44475a;
+  --moonlight-foreground: var(--moonlight-gray-10);
+  --moonlight-html: var(--moonlight-dark-red);
+  --moonlight-html-brackets: var(--moonlight-sky-blue);
+
+  /* Animation */
+  --moonlight-background: #222436;
+  --moonlight-bracket: #ff966c;
+  --moonlight-object: #c3e88d;
+  --moonlight-string: #4fd6be;
+  --moonlight-symbol: #65bcff;
+  --moonlight-declaration: var(--moonlight-purple);
+  --moonlight-variable: var(--moonlight-gray-10);
   /* #endregion: Moonlight Theme  */
   /* #region: Moonlight II Theme */
-    /* All Colors */
-    --moonlight-background: #222436;
-    --moonlight-desaturated-gray: #7f85a3;
-    --moonlight-dark-blue: #3e68d7;
-    --moonlight-blue: #82aaff;
-    --moonlight-sky-blue: #65bcff;
-    --moonlight-cyan: #86e1fc;
-    --moonlight-red: #ff757f;
-    --moonlight-dark-red: #ff5370;
-    --moonlight-light-red: #ff98a4;
-    --moonlight-yellow: #ffc777;
-    --moonlight-orange: #ff966c;
-    --moonlight-dark-orange: #fc7b7b;
-    --moonlight-teal: #4fd6be;
-    --moonlight-green: #c3e88d;
-    --moonlight-purple: #c099ff;
-    --moonlight-pink: #fca7ea;
-    --moonlight-indigo: #7a88cf;
-    --moonlight-bright-cyan: #b4f9f8;
-  
-    --moonlight-gray-10-alt: #bcc4d6;
-    --moonlight-gray-10: #c8d3f5;
-    --moonlight-gray-9: #b4c2f0;
-    --moonlight-gray-8: #a9b8e8;
-    --moonlight-gray-7: #828bb8;
-    --moonlight-gray-6: #444a73;
-    --moonlight-gray-5: #2f334d;
-    --moonlight-gray-4: #222436;
-    --moonlight-gray-3: #1e2030;
-    --moonlight-gray-2: #191a2a;
-    --moonlight-gray-1: #131421;
+  /* All Colors */
+  --moonlight-background: #222436;
+  --moonlight-desaturated-gray: #7f85a3;
+  --moonlight-dark-blue: #3e68d7;
+  --moonlight-blue: #82aaff;
+  --moonlight-sky-blue: #65bcff;
+  --moonlight-cyan: #86e1fc;
+  --moonlight-red: #ff757f;
+  --moonlight-dark-red: #ff5370;
+  --moonlight-light-red: #ff98a4;
+  --moonlight-yellow: #ffc777;
+  --moonlight-orange: #ff966c;
+  --moonlight-dark-orange: #fc7b7b;
+  --moonlight-teal: #4fd6be;
+  --moonlight-green: #c3e88d;
+  --moonlight-purple: #c099ff;
+  --moonlight-pink: #fca7ea;
+  --moonlight-indigo: #7a88cf;
+  --moonlight-bright-cyan: #b4f9f8;
 
-    /* Secondary Colors */
-    --moonlight-ii-nav: #44475a;
-    --moonlight-ii-foreground: var(--moonlight-gray-10);
-    --moonlight-ii-html: var(--moonlight-dark-red);
-    --moonlight-ii-html-brackets: var(--moonlight-sky-blue);
+  --moonlight-gray-10-alt: #bcc4d6;
+  --moonlight-gray-10: #c8d3f5;
+  --moonlight-gray-9: #b4c2f0;
+  --moonlight-gray-8: #a9b8e8;
+  --moonlight-gray-7: #828bb8;
+  --moonlight-gray-6: #444a73;
+  --moonlight-gray-5: #2f334d;
+  --moonlight-gray-4: #222436;
+  --moonlight-gray-3: #1e2030;
+  --moonlight-gray-2: #191a2a;
+  --moonlight-gray-1: #131421;
 
-    /* Animation */
-    --moonlight-ii-background: #222436;
-    --moonlight-ii-bracket: #ff966c;
-    --moonlight-ii-object: #4fd6be;
-    --moonlight-ii-string: #c3e88d;
-    --moonlight-ii-symbol: #6CD6F8;
-    --moonlight-ii-declaration: var(--moonlight-purple);
-    --moonlight-ii-variable: var(--moonlight-red);
+  /* Secondary Colors */
+  --moonlight-ii-nav: #44475a;
+  --moonlight-ii-foreground: var(--moonlight-gray-10);
+  --moonlight-ii-html: var(--moonlight-dark-red);
+  --moonlight-ii-html-brackets: var(--moonlight-sky-blue);
+
+  /* Animation */
+  --moonlight-ii-background: #222436;
+  --moonlight-ii-bracket: #ff966c;
+  --moonlight-ii-object: #4fd6be;
+  --moonlight-ii-string: #c3e88d;
+  --moonlight-ii-symbol: #6cd6f8;
+  --moonlight-ii-declaration: var(--moonlight-purple);
+  --moonlight-ii-variable: var(--moonlight-red);
 
   /* #endregion Moonlight II Theme */
   /* #region: Night Owl Theme */
-    /* All Colors */
-    --night-owl-black: #011627;
-    --night-owl-nav: #44475a;
-    --night-owl-white: #f8f8f2;
-    --night-owl-comment: null;
-    --night-owl-light-blue: #78ccf0;
-    --night-owl-blue: #82AAFF;
-    --night-owl-dark-blue: #0b2942;
-    --night-owl-green: null;
-    --night-owl-orange: #e2b93d;
-    --night-owl-pink: null;
-    --night-owl-purple: #C792EA;
-    --night-owl-red: null;
-    --night-owl-brown: #b39554;
+  /* All Colors */
+  --night-owl-black: #011627;
+  --night-owl-nav: #44475a;
+  --night-owl-white: #f8f8f2;
+  --night-owl-comment: null;
+  --night-owl-light-blue: #78ccf0;
+  --night-owl-blue: #82aaff;
+  --night-owl-dark-blue: #0b2942;
+  --night-owl-green: null;
+  --night-owl-orange: #e2b93d;
+  --night-owl-pink: null;
+  --night-owl-purple: #c792ea;
+  --night-owl-red: null;
+  --night-owl-brown: #b39554;
 
-    /* Secondary Colors */
-    --night-owl-nav: var(--night-owl-dark-blue);
-    --night-owl-foreground: var(--night-owl-white);
-    --night-owl-html: var(--night-owl-light-blue);
-    --night-owl-html-brackets: var(--night-owl-light-blue);
+  /* Secondary Colors */
+  --night-owl-nav: var(--night-owl-dark-blue);
+  --night-owl-foreground: var(--night-owl-white);
+  --night-owl-html: var(--night-owl-light-blue);
+  --night-owl-html-brackets: var(--night-owl-light-blue);
 
-    /* Animation */
-    --night-owl-background: var(--night-owl-black);
-    --night-owl-bracket: var(--night-owl-orange);
-    --night-owl-object: var(--night-owl-purple);
-    --night-owl-string: var(--night-owl-brown);
-    --night-owl-symbol: var(--night-owl-purple);
-    --night-owl-declaration: var(--night-owl-purple);
-    --night-owl-variable: var(--night-owl-blue);
+  /* Animation */
+  --night-owl-background: var(--night-owl-black);
+  --night-owl-bracket: var(--night-owl-orange);
+  --night-owl-object: var(--night-owl-purple);
+  --night-owl-string: var(--night-owl-brown);
+  --night-owl-symbol: var(--night-owl-purple);
+  --night-owl-declaration: var(--night-owl-purple);
+  --night-owl-variable: var(--night-owl-blue);
   /* #endregion: Night Owl Theme */
   /* #region: Dracula Theme */
-    /* All Colors */
-    --dracula-background: #282a36;
-    --dracula-current-line: #44475a;
-    --dracula-foreground: #f8f8f2;
-    --dracula-comment: #6272a4;
-    --dracula-cyan: #8be9fd;
-    --dracula-green: #50fa7b;
-    --dracula-orange: #ffb86c;
-    --dracula-pink: #ff79c6;
-    --dracula-purple: #bd93f9;
-    --dracula-red: #ff5555;
-    --dracula-yellow: #f1fa8c;
+  /* All Colors */
+  --dracula-background: #282a36;
+  --dracula-current-line: #44475a;
+  --dracula-foreground: #f8f8f2;
+  --dracula-comment: #6272a4;
+  --dracula-cyan: #8be9fd;
+  --dracula-green: #50fa7b;
+  --dracula-orange: #ffb86c;
+  --dracula-pink: #ff79c6;
+  --dracula-purple: #bd93f9;
+  --dracula-red: #ff5555;
+  --dracula-yellow: #f1fa8c;
 
-    /* Secondary Colors  */
-    --dracula-nav: #44475a;
-    --dracula-foreground: #f8f8f2;
-    --dracula-html: var(--dracula-pink);
-    --dracula-html-brackets: var(--dracula-foreground);
+  /* Secondary Colors  */
+  --dracula-nav: #44475a;
+  --dracula-foreground: #f8f8f2;
+  --dracula-html: var(--dracula-pink);
+  --dracula-html-brackets: var(--dracula-foreground);
 
-    /* Animation */
-    --dracula-background: #282a36;
-    --dracula-bracket: #ffb86c;
-    --dracula-object: #f8f8f2;
-    --dracula-string: #f1fa8c;
-    --dracula-symbol: #ff79c6;
-    --dracula-declaration: var(--dracula-pink);
-    --dracula-variable: var(--dracula-purple);
+  /* Animation */
+  --dracula-background: #282a36;
+  --dracula-bracket: #ffb86c;
+  --dracula-object: #f8f8f2;
+  --dracula-string: #f1fa8c;
+  --dracula-symbol: #ff79c6;
+  --dracula-declaration: var(--dracula-pink);
+  --dracula-variable: var(--dracula-purple);
   /* #endregion: Dracula Theme */
 }
 
@@ -177,21 +177,21 @@ html {
 }
 
 body.moonlight {
-    /* * Night Owl Theme * */
-    /* Animation */
-    --background: var(--moonlight-background);
-    --bracket: var(--moonlight-bracket);
-    --object: var(--moonlight-object);
-    --string: var(--moonlight-string);
-    --symbol: var(--moonlight-symbol);
-    --declaration: var(--moonlight-declaration);
-    --variable: var(--moonlight-variable);
+  /* * Night Owl Theme * */
+  /* Animation */
+  --background: var(--moonlight-background);
+  --bracket: var(--moonlight-bracket);
+  --object: var(--moonlight-object);
+  --string: var(--moonlight-string);
+  --symbol: var(--moonlight-symbol);
+  --declaration: var(--moonlight-declaration);
+  --variable: var(--moonlight-variable);
 
-    /* Secondary */
-    --nav: var(--moonlight-nav);
-    --foreground: var(--moonlight-foreground);
-    --html: var(--moonlight-html);
-    --html-brackets: var(--moonlight-html-brackets);
+  /* Secondary */
+  --nav: var(--moonlight-nav);
+  --foreground: var(--moonlight-foreground);
+  --html: var(--moonlight-html);
+  --html-brackets: var(--moonlight-html-brackets);
 }
 
 body.moonlight-ii {
@@ -213,21 +213,21 @@ body.moonlight-ii {
 }
 
 body.night-owl {
-    /* * Night Owl Theme * */
-    /* Animation */
-    --background: var(--night-owl-background);
-    --bracket: var(--night-owl-bracket);
-    --object: var(--night-owl-object);
-    --string: var(--night-owl-string);
-    --symbol: var(--night-owl-symbol);
-    --declaration: var(--night-owl-declaration);
-    --variable: var(--night-owl-variable);
+  /* * Night Owl Theme * */
+  /* Animation */
+  --background: var(--night-owl-background);
+  --bracket: var(--night-owl-bracket);
+  --object: var(--night-owl-object);
+  --string: var(--night-owl-string);
+  --symbol: var(--night-owl-symbol);
+  --declaration: var(--night-owl-declaration);
+  --variable: var(--night-owl-variable);
 
-    /* Secondary */
-    --nav: var(--night-owl-nav);
-    --foreground: var(--night-owl-foreground);
-    --html: var(--night-owl-html);
-    --html-brackets: var(--night-owl-html-brackets);
+  /* Secondary */
+  --nav: var(--night-owl-nav);
+  --foreground: var(--night-owl-foreground);
+  --html: var(--night-owl-html);
+  --html-brackets: var(--night-owl-html-brackets);
 }
 
 body.dracula {
@@ -268,11 +268,11 @@ body.dracula {
   background: var(--orange);
 }
 
-body{
+body {
   background: var(--background);
   color: var(--foreground);
   margin: 0 auto;
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   font-size: 1.8rem;
   line-height: 1.4;
 }
@@ -309,7 +309,7 @@ img {
   width: 100%;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -321,7 +321,7 @@ img {
   z-index: 10;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   margin-right: 2rem;
 }
@@ -356,8 +356,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: 
-    ". typing .";
+  grid-template-areas: ". typing .";
   align-items: center;
   height: 100vh;
   background-color: var(--background);
@@ -370,19 +369,31 @@ img {
 
 /* Projects Section */
 
-.projects-section {
+.projects-section,
+.css-art-section {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--nav);
 }
 
-.projects-section-header {
+.projects-section-header,
+.css-art-section-header {
   max-width: 300px;
   margin: 0 auto 6rem auto;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.css-art-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
@@ -493,7 +504,7 @@ img {
 
 .contact-details:hover {
   transform: translateY(8px);
-  color: var(--bracket)
+  color: var(--bracket);
 }
 
 /* Footer */
@@ -515,25 +526,24 @@ footer i {
   vertical-align: middle;
 }
 
-
 /* #region: ANIMATIONS */
 
-#brackets{
+#brackets {
   color: var(--bracket);
 }
-#object-name{
+#object-name {
   color: var(--object);
 }
-.string{
+.string {
   color: var(--string);
 }
-#symbols{
+#symbols {
   color: var(--symbol);
 }
-#declaration{
+#declaration {
   color: var(--declaration);
 }
-#variable{
+#variable {
   color: var(--variable);
 }
 
@@ -542,148 +552,170 @@ footer i {
   position: absolute;
   margin-left: -8px;
   color: var(--symbol) !important;
-  -webkit-animation: blink-animation .75s step-end 2s infinite;
-  -moz-animation: blink-animation .75s step-end 2s infinite;
-  -ms-animation: blink-animation .75s step-end 2s infinite;
-  -o-animation: blink-animation .75s step-end 2s infinite;
-  animation: blink-animation .75s step-end 2s infinite;
+  -webkit-animation: blink-animation 0.75s step-end 2s infinite;
+  -moz-animation: blink-animation 0.75s step-end 2s infinite;
+  -ms-animation: blink-animation 0.75s step-end 2s infinite;
+  -o-animation: blink-animation 0.75s step-end 2s infinite;
+  animation: blink-animation 0.75s step-end 2s infinite;
 }
 
 @keyframes blink-animation {
-  from, to {visibility: hidden;}
-  50% {visibility: visible;}
+  from,
+  to {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
 }
 @-webkit-keyframes blink-animation {
-  from, to {visibility: hidden;}
-  50% {visibility: visible;}
+  from,
+  to {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
 }
 @-moz-keyframes blink-animation {
-  from, to {visibility: hidden;}
-  50% {visibility: visible;}
+  from,
+  to {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
 }
 @-ms-keyframes blink-animation {
-  from, to {visibility: hidden;}
-  50% {visibility: visible;}
+  from,
+  to {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
 }
 @-o-keyframes blink-animation {
-  from, to {visibility: hidden;}
-  50% {visibility: visible;}
+  from,
+  to {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
 }
 
 /* #endregion: Animations */
 
 /* #region: RESPONSIVE */
 
-  /* #region: Extra small devices (phones, 600px and down) */
-  /* * 28.75em * */
-    @media only screen and (max-width: 600px) {
-      .header{
-        line-height: 1;
-        font-size: .7rem;
-        margin: 10% 0 0 5%;
-      }
+/* #region: Extra small devices (phones, 600px and down) */
+/* * 28.75em * */
+@media only screen and (max-width: 600px) {
+  .header {
+    line-height: 1;
+    font-size: 0.7rem;
+    margin: 10% 0 0 5%;
+  }
 
-      html {
-        font-size: 55%;
-      }
+  html {
+    font-size: 55%;
+  }
 
-      #typing-animation > p {
-        font-size: 2.6rem;
-      }
+  #typing-animation > p {
+    font-size: 2.6rem;
+  }
 
-      .nav{
-        justify-content: center;
-      }
+  .nav {
+    justify-content: center;
+  }
 
-      .nav-list{
-        margin: 0 1rem;
-      }
+  .nav-list {
+    margin: 0 1rem;
+  }
 
-      .nav-list a{
-        padding: 2rem 1rem;
-      }
+  .nav-list a {
+    padding: 2rem 1rem;
+  }
 
-      .welcome-section {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-          "typing";
-      }
+  .welcome-section {
+    grid-template-columns: 1fr;
+    grid-template-areas: "typing";
+  }
 
-      .projects-section-header {
-        font-size: 4rem;
-      }
+  .projects-section-header {
+    font-size: 4rem;
+  }
 
-      .projects-section {
-        padding: 6rem 1rem;
-      }
+  .projects-section {
+    padding: 6rem 1rem;
+  }
 
-      .projects-grid {
-        grid-template-columns: 1fr;
-      }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 
-      .contact-section-header > h2 {
-        font-size: 4rem;
-      }
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
 
-      footer {
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-  /* #endregion: Extra Small */
-  /* #region: Medium devices (tablets, 768px and up) */
-  /* * 61.25em * */
-    @media only screen and (min-width: 750px) {
-      .header{
-        line-height: 1;
-        margin: 10% 0 0 15%;
-      }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* #endregion: Extra Small */
+/* #region: Medium devices (tablets, 768px and up) */
+/* * 61.25em * */
+@media only screen and (min-width: 750px) {
+  .header {
+    line-height: 1;
+    margin: 10% 0 0 15%;
+  }
 
-      html {
-        font-size: 58%;
-      }
+  html {
+    font-size: 58%;
+  }
 
-      #typing-animation > p {
-        font-size: 3.75rem;
-      }
+  #typing-animation > p {
+    font-size: 3.75rem;
+  }
 
-      .welcome-section {
-        grid-template-columns: 1fr 75% 1fr;
-        grid-template-areas: 
-          ". typing .";
-      }
-    }
-  /* #endregion: Medium */
-  /* #region: Large devices (laptops/desktops, 992px and up) */
-  /* * 75em * */
-    @media only screen and (min-width: 992px) {
-      .header{
-        line-height: 1;
-        margin: 10% 0 0 30%;
-      }
+  .welcome-section {
+    grid-template-columns: 1fr 75% 1fr;
+    grid-template-areas: ". typing .";
+  }
+}
+/* #endregion: Medium */
+/* #region: Large devices (laptops/desktops, 992px and up) */
+/* * 75em * */
+@media only screen and (min-width: 992px) {
+  .header {
+    line-height: 1;
+    margin: 10% 0 0 30%;
+  }
 
-      html {
-        font-size: 60%;
-      }
+  html {
+    font-size: 60%;
+  }
 
-      #typing-animation > p {
-        font-size: 4.2rem
-      }
+  #typing-animation > p {
+    font-size: 4.2rem;
+  }
 
-      .welcome-section {
-        grid-template-columns: 1fr 50% 1fr;
-        grid-template-areas: 
-          ". typing .";
-      }
-    }
-  /* #endregion: Large */
-  /* #region: Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1300px) {
-      .header{
-        line-height: 1;
-        margin: 10% 0 0 33%;
-      }
-    }
-  /* #endregion: Extra Large */
+  .welcome-section {
+    grid-template-columns: 1fr 50% 1fr;
+    grid-template-areas: ". typing .";
+  }
+}
+/* #endregion: Large */
+/* #region: Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+  .header {
+    line-height: 1;
+    margin: 10% 0 0 33%;
+  }
+}
+/* #endregion: Extra Large */
 
 /* #endregion: Responsive */
