@@ -627,7 +627,7 @@ footer i {
   }
 
   .nav {
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .nav-list {
@@ -636,6 +636,7 @@ footer i {
 
   .nav-list a {
     padding: 2rem 1rem;
+    font-size: 1.5rem;
   }
 
   .welcome-section {
