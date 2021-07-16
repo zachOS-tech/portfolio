@@ -272,7 +272,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   margin: 0 auto;
-  font-family: "Fira Code", monospace;
+  font-family: 'Fira Code', monospace;
   font-size: 1.8rem;
   line-height: 1.4;
 }
@@ -356,7 +356,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas: ". typing .";
+  grid-template-areas: '. typing .';
   align-items: center;
   height: 100vh;
   background-color: var(--background);
@@ -626,10 +626,6 @@ footer i {
     font-size: 2.6rem;
   }
 
-  .nav {
-    /* justify-content: center; */
-  }
-
   .nav-list {
     margin: 0 1rem;
   }
@@ -641,7 +637,7 @@ footer i {
 
   .welcome-section {
     grid-template-columns: 1fr;
-    grid-template-areas: "typing";
+    grid-template-areas: 'typing';
   }
 
   .projects-section-header {
@@ -684,7 +680,7 @@ footer i {
 
   .welcome-section {
     grid-template-columns: 1fr 75% 1fr;
-    grid-template-areas: ". typing .";
+    grid-template-areas: '. typing .';
   }
 }
 /* #endregion: Medium */
@@ -706,7 +702,7 @@ footer i {
 
   .welcome-section {
     grid-template-columns: 1fr 50% 1fr;
-    grid-template-areas: ". typing .";
+    grid-template-areas: '. typing .';
   }
 }
 /* #endregion: Large */

@@ -137,7 +137,7 @@ function writeFirstName() {
     setTimeout(writeFirstName, speed);
   }
 
-  // Hide first cursor once the typing is finished
+  // Removes the first cursor
   setTimeout(() => {
     removeElement("cursor1");
   }, 2000);
@@ -155,7 +155,9 @@ function writeLastName() {
 function removeElement(elementId) {
   // Removes an element from the document
   var element = document.getElementById(elementId);
-  element.parentNode.removeChild(element);
+  if(element){
+    element.parentNode.removeChild(element);
+  }
 }
 
 const whoAmI = 
