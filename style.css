@@ -546,6 +546,9 @@ footer i {
 #variable {
   color: var(--variable);
 }
+#bmc-wbtn {
+  background-color: var(--variable);
+}
 
 .blinking-cursor {
   font-weight: 400;
