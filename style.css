@@ -272,7 +272,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   margin: 0 auto;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Inter', sans-serif;
   font-size: 1.8rem;
   line-height: 1.4;
 }
@@ -323,7 +323,15 @@ img {
 
 .nav-list {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   margin-right: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-list a {
@@ -351,9 +359,20 @@ img {
   display: block;
 }
 
+.nav-logo a img {
+  height: 100px;
+  margin-block: -20px;
+  padding-inline: 20px;
+}
+
+.nav-list .nav-logo a:hover {
+  background: none;
+}
+
 /* Welcome Section */
 .welcome-section {
   display: grid;
+  font-family: 'Fira Code', monospace;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: '. typing .';
