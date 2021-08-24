@@ -343,8 +343,7 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--bracket);
-  color: var(--background);
+  color: var(--bracket);
 }
 
 .nav-list ul {
