@@ -1,430 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://cdn.lr-ingest.io/LogRocket.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      window.LogRocket && window.LogRocket.init('wojzh6/zachos-tech-site');
-    </script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Zach Hoskins' Portfolio</title>
-  </head>
-  <body id="body" class="night-owl">
-    <!-- START NAV -->
-    <nav id="navbar" class="nav">
-      <ul class="nav-list">
-        <div>
-          <li class="nav-logo">
-            <a href="/"><img src="/assets/Logo.png" alt="zachOS Logo" /></a>
-          </li>
-        </div>
-        <div class="nav-links">
-          <li><a href="#welcome-section">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#css-art">CSS Art</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <a href="#" class="theme" onclick="changeTheme();"
-              ><i class="fas fa-palette"></i
-            ></a>
-            <ul>
-              <li><a>Moonlight II</a></li>
-              <li><a>Night Owl</a></li>
-              <li><a>Dracula</a></li>
-            </ul>
-          </li>
-        </div>
-      </ul>
-    </nav>
-    <!-- END NAV -->
 
-    <!-- START WELCOME SECTION -->
-    <section id="welcome-section" class="welcome-section">
-      <div id="typing-animation">
-        <p>
-          <span id="declaration">const </span><span id="variable">whoAmI </span
-          ><span id="symbols">=</span>
-        </p>
-        <p id="brackets">{</p>
-        <p>
-          &nbsp;&nbsp;<span id="object-name">name</span
-          ><span id="symbols">:</span><span class="string"> "</span
-          ><span class="string" id="typewriter_firstName">zac</span
-          ><span id="cursor1" class="blinking-cursor">|</span
-          ><span class="string" id="typewriter_lastName">hOS</span
-          ><span id="cursor2" class="blinking-cursor">|</span
-          ><span class="string">"</span><span id="symbols">,</span>
-        </p>
-        <p>
-          &nbsp;&nbsp;<span id="object-name">title</span
-          ><span id="symbols">:</span
-          ><span class="string"> "Web Developer"&nbsp;&nbsp;</span>
-        </p>
-        <p id="brackets">}</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
+  <script>
+    window.LogRocket && window.LogRocket.init('wojzh6/zachos-tech-site');
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Zach Hoskins' Portfolio</title>
+</head>
+
+<body id="body" class="night-owl">
+  <!-- START NAV -->
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <div>
+        <li class="nav-logo">
+          <a href="/"><img src="/assets/Logo.png" alt="zachOS Logo" /></a>
+        </li>
       </div>
-    </section>
-    <hr />
-    <!-- END WELCOME SECTION -->
-
-    <!-- START PROJECTS SECTION -->
-    <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">Projects</h2>
-
-      <div class="projects-grid">
-        <a
-          href="https://anygardener.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://res.cloudinary.com/zachhoskins/image/upload/v1611429136/AnyGardener.png"
-            alt="AnyGardener Website"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            AnyGardener Wordpress Website
-            <span class="code">&#47;&gt;</span><br /><span
-              >(Work In Progress)</span
-            >
-          </p>
-        </a>
-        <a
-          href="https://zachos-tech.github.io/HisSohnStudio"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://res.cloudinary.com/zachhoskins/image/upload/v1592061351/Portfolio/HisSohnStudio.png"
-            alt="HisSohn Studio Website"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            HisSohn Studio Website
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://oneoilyman.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://res.cloudinary.com/zachhoskins/image/upload/v1592061351/Portfolio/OneOilyMan.png"
-            alt="OneOilyMan Website"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            OneOilyMan Blogging Website
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://codepen.io/zachhoskins/full/ZEQQOWN"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://res.cloudinary.com/zachhoskins/image/upload/v1592061348/Portfolio/technical-documentation-page.png"
-            alt="Technical Documentation Page"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Flexbox Technical Documentation
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
+      <div class="nav-links">
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#css-art">CSS&nbsp;Art</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <div class="theme" onclick="changeTheme();"><i class="fas fa-palette"></i></div>
+          <ul>
+            <li><a>Moonlight II</a></li>
+            <li><a>Night Owl</a></li>
+            <li><a>Dracula</a></li>
+          </ul>
+        </li>
       </div>
-    </section>
-    <!-- END PROJECTS SECTION -->
+    </ul>
+  </nav>
+  <!-- END NAV -->
 
-    <!-- START CSS ART SECTION -->
+  <!-- START WELCOME SECTION -->
+  <section id="welcome-section" class="welcome-section">
+    <div id="typing-animation">
+      <p>
+        <span id="declaration">const </span><span id="variable">whoAmI </span
+        ><span id="symbols">=</span>
+      </p>
+      <p id="brackets">{</p>
+      <p>
+        &nbsp;&nbsp;<span id="object-name">name</span
+        ><span id="symbols">:</span><span class="string"> "</span
+        ><span class="string" id="typewriter_firstName">zac</span
+        ><span id="cursor1" class="blinking-cursor">|</span
+        ><span class="string" id="typewriter_lastName">hOS</span
+        ><span id="cursor2" class="blinking-cursor">|</span
+        ><span class="string">"</span><span id="symbols">,</span>
+      </p>
+      <p>
+        &nbsp;&nbsp;<span id="object-name">title</span
+        ><span id="symbols">:</span
+        ><span class="string"> "Web Developer"&nbsp;&nbsp;</span>
+      </p>
+      <p id="brackets">}</p>
+    </div>
+  </section>
+  <hr />
+  <!-- END WELCOME SECTION -->
 
-    <section id="css-art" class="css-art-section">
-      <h2 class="css-art-section-header">CSS Art</h2>
+  <!-- START PROJECTS SECTION -->
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">Projects</h2>
 
-      <div class="css-art-grid">
-        <!-- CSS AANG -->
-        <p
-          class="codepen"
-          data-height="500"
-          data-theme-id="dark"
-          data-default-tab="result"
-          data-user="zachhoskins"
-          data-slug-hash="eYJqQBw"
-          style="
-            height: 500px;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid;
-            margin: 1em 0;
-            padding: 1em;
-          "
-          data-pen-title="CSS Avatar Aang"
-        >
-          <span
-            >See the Pen
-            <a href="https://codepen.io/zachhoskins/pen/eYJqQBw">
-              CSS Avatar Aang</a
-            >
-            by ZachHoskins (<a href="https://codepen.io/zachhoskins"
-              >@zachhoskins</a
-            >) on <a href="https://codepen.io">CodePen</a>.</span
-          >
+    <div class="projects-grid">
+      <a href="https://zachOS-tech.github.io/mammogram-landing-page/" target="_blank" rel="noopener noreferrer"
+        class="project project-tile">
+        <img class="project-image" src="/assets/images/projects/mammo-landing-page.png" alt="Mammogram Landing Page" />
+        <p class="project-title">
+          <span class="code">&lt;</span> Mammogram Landing Page
+          <span class="code">&#47;&gt;</span>
         </p>
-        <script
-          async
-          src="https://cpwebassets.codepen.io/assets/embed/ei.js"
-        ></script>
-
-        <!-- CSS TOM NOOK -->
-        <!-- <p
-          class="codepen"
-          data-height="500"
-          data-theme-id="dark"
-          data-default-tab="result"
-          data-user="zachhoskins"
-          data-slug-hash="NWxweeV"
-          style="
-            height: 500px;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid;
-            margin: 1em 0;
-            padding: 1em;
-          "
-          data-pen-title="CSS Tom Nook"
-        >
-          <span
-            >See the Pen
-            <a href="https://codepen.io/zachhoskins/pen/NWxweeV">
-              CSS Tom Nook</a
-            >
-            by ZachHoskins (<a href="https://codepen.io/zachhoskins"
-              >@zachhoskins</a
-            >) on <a href="https://codepen.io">CodePen</a>.</span
-          >
-        </p>
-        <script
-          async
-          src="https://cpwebassets.codepen.io/assets/embed/ei.js"
-        ></script> -->
-
-        <!-- CSS PIG -->
-        <p
-          class="codepen"
-          data-height="500"
-          data-theme-id="dark"
-          data-default-tab="result"
-          data-user="zachhoskins"
-          data-slug-hash="pogPvYV"
-          style="
-            height: 500px;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid;
-            margin: 1em 0;
-            padding: 1em;
-          "
-          data-pen-title="CSS Pig"
-        >
-          <span
-            >See the Pen
-            <a href="https://codepen.io/zachhoskins/pen/pogPvYV"> CSS Pig</a> by
-            ZachHoskins (<a href="https://codepen.io/zachhoskins"
-              >@zachhoskins</a
-            >) on <a href="https://codepen.io">CodePen</a>.</span
-          >
-        </p>
-        <script
-          async
-          src="https://cpwebassets.codepen.io/assets/embed/ei.js"
-        ></script>
-
-        <!-- CSS TWITTER -->
-        <p
-          class="codepen"
-          data-height="500"
-          data-theme-id="dark"
-          data-default-tab="result"
-          data-user="zachhoskins"
-          data-slug-hash="yLezGBd"
-          style="
-            height: 500px;
-            box-sizing: border-box;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid;
-            margin: 1em 0;
-            padding: 1em;
-          "
-          data-pen-title="CSS Twitter"
-        >
-          <span
-            >See the Pen
-            <a href="https://codepen.io/zachhoskins/pen/yLezGBd">
-              CSS Twitter</a
-            >
-            by ZachHoskins (<a href="https://codepen.io/zachhoskins"
-              >@zachhoskins</a
-            >) on <a href="https://codepen.io">CodePen</a>.</span
-          >
-        </p>
-        <script
-          async
-          src="https://cpwebassets.codepen.io/assets/embed/ei.js"
-        ></script>
-
-        <!-- <a
-          href="https://codepen.io/zachhoskins/details/NWxweeV"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            src="assets/images/tom-nook.jpg"
-            alt="Tom Nook CSS Art"
-            class="project-image"
-          />
-          <p class="project-title">Tom Nook</p>
-        </a>
-        <a
-          href="https://codepen.io/zachhoskins/details/pogPvYV"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            src="assets/images/pig.jpg"
-            alt="Pig CSS Art"
-            class="project-image"
-          />
-          <p class="project-title">Pig</p>
-        </a>
-        <a
-          href="https://codepen.io/zachhoskins/full/MWKVJwJ"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="project project-tile"
-        >
-          <img
-            src="assets/images/chicago-skyline.jpg"
-            alt="Chicago Skyline CSS Art"
-            class="project-image"
-          />
-          <p class="project-title">Chicago Skyline</p>
-        </a> -->
-      </div>
-
-      <a
-        href="https://codepen.io/zachhoskins/pens/public"
-        target="_blank"
-        rel="noopener noreferrer"
-        id="profile-link"
-        class="btn btn-show-all"
-      >
-        Show All <i class="fas fa-chevron-right"></i>
       </a>
-    </section>
-    <hr />
-    <!-- END CSS ART SECTION -->
+      <a href="https://zachos-tech.github.io/primary-care-landing-page/" target="_blank" rel="noopener noreferrer"
+        class="project project-tile">
+        <img class="project-image"
+          src="/assets//images/projects/primary-care-landing-page.png"
+          alt="Primary Care Landing Page" />
+        <p class="project-title">
+          <span class="code">&lt;</span> Primary Care Landing Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a href="https://zachos-tech.github.io/Pokedex/" target="_blank" rel="noopener noreferrer"
+        class="project project-tile">
+        <img class="project-image" src="/assets//images/projects/PokeDex.png" alt="Pokedex" />
+        <p class="project-title">
+          <span class="code">&lt;</span> Functioning CSS PokeDex
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a href="https://zachos-tech.github.io/HisSohnStudio/" target="_blank" rel="noopener noreferrer"
+        class="project project-tile">
+        <img class="project-image" src="/assets/images/projects/hissohn-studio.png" alt="HisSohn Studio Website" />
+        <p class="project-title">
+          <span class="code">&lt;</span> HisSohn Studio Website
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+    </div>
+  </section>
+  <!-- END PROJECTS SECTION -->
 
-    <!-- START CONTACT SECTION -->
-    <section id="contact" class="contact-section">
-      <div class="contact-section-header">
-        <h2>Let's Talk</h2>
-        <p>Wanna get in touch or need help with a project?</p>
-      </div>
+  <!-- START CSS ART SECTION -->
 
-      <div class="contact-links">
-        <a
-          href="https://github.com/zachOS-tech"
-          class="btn contact-details"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a
-          href="https://twitter.com/zachOS_tech"
-          class="btn contact-details"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/zach-hoskins/"
-          class="btn contact-details"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a
-          href="https://www.youtube.com/channel/UC5xyzfh7UyUd1nJ7TWhs5ag/"
-          class="btn contact-details"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-youtube"></i
-        ></a>
-        <a href="mailto:hello@zachos.tech" class="btn contact-details"
-          ><i class="fas fa-envelope"></i
-        ></a>
-      </div>
-    </section>
-    <hr />
-    <!-- END CONTACT SECTION -->
+  <section id="css-art" class="css-art-section">
+    <h2 class="css-art-section-header">CSS Art</h2>
 
-    <!-- START FOOTER SECTION -->
-    <footer>
-      <p>Zach Hoskins &copy; 2021</p>
-    </footer>
-    <!-- END FOOTER SECTION -->
+    <div class="css-art-grid">
+      <!-- CSS AANG -->
+      <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="result" data-user="zachos"
+        data-slug-hash="eYJqQBw" style="
+            height: 500px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid;
+            margin: 1em 0;
+            padding: 1em;
+          " data-pen-title="CSS Avatar Aang">
+        <span>See the Pen
+          <a href="https://codepen.io/zachos/pen/eYJqQBw">
+            CSS Avatar Aang</a>
+          by zachos (<a href="https://codepen.io/zachos">@zachos</a>) on <a
+            href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-    <script src="./theme.js"></script>
-    <script src="./typing.js"></script>
-    <script
-      data-name="BMC-Widget"
-      data-cfasync="false"
-      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-      data-id="zachOS"
-      data-description="Support me on Buy me a coffee!"
-      data-message="If you find any of my content helpful, please consider supporting me."
-      data-position="Right"
-      data-x_margin="18"
-      data-y_margin="18"
-    ></script>
-  </body>
+      <!-- CSS PIG -->
+      <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="result" data-user="zachos"
+        data-slug-hash="pogPvYV" style="
+            height: 500px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid;
+            margin: 1em 0;
+            padding: 1em;
+          " data-pen-title="CSS Pig">
+        <span>See the Pen
+          <a href="https://codepen.io/zachos/pen/pogPvYV"> CSS Pig</a> by
+          zachos (<a href="https://codepen.io/zachos">@zachos</a>) on <a
+            href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+      <!-- CSS TWITTER -->
+      <p class="codepen" data-height="500" data-theme-id="dark" data-default-tab="result" data-user="zachos"
+        data-slug-hash="yLezGBd" style="
+            height: 500px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid;
+            margin: 1em 0;
+            padding: 1em;
+          " data-pen-title="CSS Twitter">
+        <span>See the Pen
+          <a href="https://codepen.io/zachos/pen/yLezGBd">
+            CSS Twitter</a>
+          by zachos (<a href="https://codepen.io/zachos">@zachos</a>) on <a
+            href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+    <a href="https://codepen.io/collection/AKexWG" target="_blank" rel="noopener noreferrer" id="profile-link"
+      class="btn btn-show-all">
+      Show All <i class="fas fa-chevron-right"></i>
+    </a>
+  </section>
+  <hr />
+  <!-- END CSS ART SECTION -->
+
+  <!-- START CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Contact Me</h2>
+      <p>If you've gotten this far, I'd love to connect?</p>
+    </div>
+
+    <div class="contact-links">
+      <a href="https://github.com/zachOS-tech" class="btn contact-details" target="_blank" rel="noopener noreferrer"><i
+          class="fab fa-github"></i></a>
+      <a href="https://twitter.com/zachOS_tech" class="btn contact-details" target="_blank" rel="noopener noreferrer"><i
+          class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/zach-hoskins/" class="btn contact-details" target="_blank"
+        rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.youtube.com/channel/UC5xyzfh7UyUd1nJ7TWhs5ag/" class="btn contact-details" target="_blank"
+        rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+      <a href="mailto:hello@zachos.tech" class="btn contact-details"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+  <hr />
+  <!-- END CONTACT SECTION -->
+
+  <!-- START FOOTER SECTION -->
+  <footer>
+    <p>Zach Hoskins &copy; 2022</p>
+  </footer>
+  <!-- END FOOTER SECTION -->
+
+  <script src="./theme.js"></script>
+  <script src="./typing.js"></script>
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="zachOS" data-description="Support me on Buy me a coffee!"
+    data-message="If you find any of my content helpful, please consider supporting me." data-position="Right"
+    data-x_margin="18" data-y_margin="18"></script>
+</body>
+
 </html>

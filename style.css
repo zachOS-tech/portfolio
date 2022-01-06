@@ -334,12 +334,16 @@ img {
   flex-direction: row;
 }
 
-.nav-list a {
+.nav-list a, div.theme {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
   color: var(--foreground);
   transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.nav-list div.theme:hover {
+  color: var(--bracket);
 }
 
 .nav-list a:hover {
@@ -359,7 +363,7 @@ img {
 }
 
 .nav-logo a img {
-  height: 100px;
+  width: 100px;
   margin-block: -20px;
   padding-inline: 20px;
 }
@@ -390,7 +394,7 @@ img {
 .projects-section,
 .css-art-section {
   text-align: center;
-  padding: 10rem 2rem;
+  padding: 7rem 2rem;
   background: var(--nav);
 }
 
@@ -398,7 +402,7 @@ img {
 .css-art-section-header {
   max-width: 300px;
   margin: 0 auto 6rem auto;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .projects-grid {
@@ -515,13 +519,11 @@ img {
 }
 
 .contact-details {
-  font-size: 2.4rem;
+  font-size: 3.5rem;
   text-shadow: 2px 2px 1px black;
-  transition: transform 0.3s ease-out;
 }
 
 .contact-details:hover {
-  transform: translateY(8px);
   color: var(--bracket);
 }
 
